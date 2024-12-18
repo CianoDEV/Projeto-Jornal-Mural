@@ -1,0 +1,185 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    background-image: linear-gradient(to top, white, #FF8C15);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+body > div{
+    margin-top: 70px;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-left: 40px;
+
+}
+
+body > div > nav > a{
+    padding: 8px;
+    text-decoration: none;
+    font-size: 18px;
+    text-indent: bold;
+    background-color: #0086B2;
+    color: yellow;
+    border-radius: 9px;
+    margin-left: 10px;
+    font-family: helvetica;
+    box-shadow: 1px 0px 5px white;
+
+}
+
+body > div > nav > a:hover{
+    background-color: #b4620a;
+    color: white;
+    transition-duration: 0.5s;
+    
+}
+
+body > div > nav > a:active{
+    background-color: #0086B2;
+    color: yellow;
+    transition-duration: 0.5s;
+
+}
+
+main{
+    background-color: white;
+    max-width: 1250px;
+    border-radius: 15px;
+    margin: auto;
+    height: 1619px;
+    margin-bottom: 40px;
+    box-shadow: 1px 0px 6px #B25E07;
+    padding-top: 20px;
+
+}
+
+main > h1{
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #0086B2;
+    margin-bottom: 20px;
+
+
+}
+
+main > article{
+    border: 2px solid #0086B2;
+    height: 470px;
+    background-color: #ff8e15be;
+    max-width: 1180px;
+    margin: auto;
+    margin-bottom: 23px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 0px 5px #B25E07;
+
+}
+
+article > h2{
+    font-family: helvetica;
+    background-color: #0086B2;
+    color: yellow;
+    padding: 7px;
+    border-radius: 5px;
+    text-decoration: underline;
+    width: 600px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}
+
+article > p.conteudo{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    font-size: 17px;
+    text-align: justify;
+    text-indent: 3em;
+    line-height: 30px;
+    width: 800px;
+
+}
+
+article > div{
+    float: right;
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    background-color: white;
+    margin-right: 20px;
+    
+}
+
+article > div#outro{
+    background-image: url("imagens/redes.jpg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 1px 0px 5px white;
+    
+}
+
+article > div#outro01{
+    background-image: url("imagens/saude\ mental.png");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 1px 0px 5px white;
+    
+}
+
+article > div#outro02{
+    background-image: url("imagens/cultura.jpg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 1px 0px 5px white;
+    
+}
+
+article > p.saiba > a.saber{
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #0086B2;
+    color: yellow;
+    padding: 8px;
+    border-radius: 5px;
+    margin-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+article > p.saiba > a.saber:hover{
+    text-decoration: underline;
+    font-size: 20px;
+    background-color: yellow;
+    color: #0086B2;
+    padding: 5px;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    box-shadow: 1px 0px 5px #0086B2;
+
+}
+
+footer{
+    background-color: #0086B2;
+    color: yellow;
+    max-width: 950px;
+    margin: auto;
+    border-radius: 5px;
+    padding: 7px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-family: helvetica;
+    font-size: 16px;
+    text-indent: bold;
+    
+
+}

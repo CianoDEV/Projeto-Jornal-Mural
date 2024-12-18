@@ -1,0 +1,447 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    background-image: linear-gradient(to top, white, #FF8C15);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+body > div{
+    margin-top: 70px;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-left: 40px;
+
+}
+
+body > div > nav > a{
+    padding: 8px;
+    text-decoration: none;
+    font-size: 18px;
+    text-indent: bold;
+    background-color: #0086B2;
+    color: yellow;
+    border-radius: 9px;
+    margin-left: 10px;
+    font-family: helvetica;
+    box-shadow: 1px 0px 5px white;
+
+}
+
+body > div > nav > a:hover{
+    background-color: #b4620a;
+    color: white;
+    transition-duration: 0.5s;
+    
+}
+
+body > div > nav > a:active{
+    background-color: #0086B2;
+    color: yellow;
+    transition-duration: 0.5s;
+
+}
+
+img#menino{
+    position: absolute;
+    right: 0;
+    top: 25%;             
+    transform: translateY(-50%);
+    width: 370px;         
+    height: auto;
+    margin-right: 30px;
+
+
+}
+
+body > img{
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: auto;
+    margin-bottom: 13px;
+
+}
+
+body > header > h1{
+    text-align: center;
+    font-size: 55px;
+    font-family: helvetica;
+    text-shadow: 2px 0px 5px rgb(255, 255, 255);
+    text-decoration: underline;
+    margin-bottom: 12px;
+
+}
+
+body > header > h3{
+    text-align: center;
+    margin-bottom: 45px;
+
+}
+
+body > header > h4{
+    text-align: center;
+    background-color: #0086B2;
+    border: 1px solid;
+    border-radius: 9px;
+    max-width: 850px;
+    margin: auto;
+    margin-bottom: 90px;
+    padding: 12px;
+    box-shadow: 1px 0px 5px #B25E07; 
+    color: yellow;
+    font-family: helvetica;
+    font-size: 14px;
+
+}
+
+main{
+    background-color: white;
+    max-width: 1250px;
+    border-radius: 15px;
+    height: 1619px;
+    margin: auto;
+    margin-bottom: 40px;
+    box-shadow: 1px 0px 6px #B25E07;
+    padding-top: 20px;
+
+}
+
+main > h1{
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #0086B2;
+    margin-bottom: 20px;
+
+
+}
+
+main > article{
+    border: 2px solid #0086B2;
+    height: 470px;
+    background-color: #ff8e15be;
+    max-width: 1180px;
+    margin: auto;
+    margin-bottom: 23px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 0px 5px #B25E07;
+
+}
+
+article > h2{
+    font-family: helvetica;
+    background-color: #0086B2;
+    color: yellow;
+    padding: 7px;
+    border-radius: 5px;
+    text-decoration: underline;
+    width: 600px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}
+
+article > p.conteudo{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    font-size: 17px;
+    text-align: justify;
+    text-indent: 3em;
+    line-height: 30px;
+    width: 800px;
+
+}
+
+article > div{
+    float: right;
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    background-color: white;
+    margin-right: 20px;
+    
+}
+
+article > div.corpo{
+    background-image: url("imagens/250082664.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 1px 0px 5px white;
+    
+}
+
+article > div.corpo02{
+    background-image: url("imagens/inteligencia-artificial.jpg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 1px 0px 5px white;
+    
+}
+
+article > div.corpo03{
+    background-image: url("imagens/the weeknd.jpg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 1px 0px 5px white;
+    
+}
+
+a.rodrigo{
+    text-decoration: none;
+    color: #0086B2;
+    
+}
+
+a.rodrigo:hover{
+    text-decoration: underline;
+    background-color: #0086B2;
+    color: yellow;
+    padding: 5px;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    
+}
+
+a.France{
+    text-decoration: none;
+    color: #0086B2;
+
+}
+
+a.France:hover{
+    text-decoration: underline;
+    background-color: #0086B2;
+    color: yellow;
+    padding: 5px;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    
+}
+
+a.teatrê{
+    text-decoration: none;
+    color: #0086B2;
+
+}
+
+a.teatrê:hover{
+    text-decoration: underline;
+    background-color: #0086B2;
+    color: yellow;
+    padding: 5px;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    
+}
+
+a.south{
+    text-decoration: none;
+    color: #0086B2;
+
+}
+
+a.south:hover{
+    text-decoration: underline;
+    background-color: #0086B2;
+    color: yellow;
+    padding: 5px;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    
+}
+
+a.amy{
+    text-decoration: none;
+    color: #0086B2;
+
+}
+
+a.amy:hover{
+    text-decoration: underline;
+    background-color: #0086B2;
+    color: yellow;
+    padding: 5px;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    
+}
+
+a.Weeknd{
+    text-decoration: none;
+    color: #0086B2;
+
+}
+
+a.Weeknd:hover{
+    text-decoration: underline;
+    background-color: #0086B2;
+    color: yellow;
+    padding: 5px;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    
+}
+
+a.Guinness{
+    text-decoration: none;
+    color: #0086B2;
+
+}
+
+a.Guinness:hover{
+    text-decoration: underline;
+    background-color: #0086B2;
+    color: yellow;
+    padding: 5px;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    
+}
+
+a.miley{
+    text-decoration: none;
+    color: #0086B2;
+
+}
+
+a.miley:hover{
+    text-decoration: underline;
+    background-color: #0086B2;
+    color: yellow;
+    padding: 5px;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    
+}
+
+a.Shakira{
+    text-decoration: none;
+    color: #0086B2;
+
+}
+
+a.Shakira:hover{
+    text-decoration: underline;
+    background-color: #0086B2;
+    color: yellow;
+    padding: 5px;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    
+}
+
+a.ariana{
+    text-decoration: none;
+    color: #0086B2;
+
+}
+
+a.ariana:hover{
+    text-decoration: underline;
+    background-color: #0086B2;
+    color: yellow;
+    padding: 5px;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    
+}
+
+a.taylor{
+    text-decoration: none;
+    color: #0086B2;
+
+}
+
+a.taylor:hover{
+    text-decoration: underline;
+    background-color: #0086B2;
+    color: yellow;
+    padding: 5px;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    
+}
+
+a.Rihanna{
+    text-decoration: none;
+    color: #0086B2;
+
+}
+
+a.Rihanna:hover{
+    text-decoration: underline;
+    background-color: #0086B2;
+    color: yellow;
+    padding: 5px;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    
+}
+
+a.ed{
+    text-decoration: none;
+    color: #0086B2;
+
+}
+
+a.ed:hover{
+    text-decoration: underline;
+    background-color: #0086B2;
+    color: yellow;
+    padding: 5px;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    
+}
+
+article > p.saiba > a.saber{
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #0086B2;
+    color: yellow;
+    padding: 8px;
+    border-radius: 5px;
+    margin-left: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+article > p.saiba > a.saber:hover{
+    text-decoration: underline;
+    font-size: 20px;
+    background-color: yellow;
+    color: #0086B2;
+    padding: 5px;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    box-shadow: 1px 0px 5px #0086B2;
+
+}
+
+footer{
+    background-color: #0086B2;
+    color: yellow;
+    max-width: 950px;
+    margin: auto;
+    border-radius: 5px;
+    padding: 7px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-family: helvetica;
+    font-size: 16px;
+    text-indent: bold;
+    
+
+}
